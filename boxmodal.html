@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 250px;
+            height: 250px;
+            background-color: red;
+            border: 10px solid ;
+            margin: 50px;
+            padding: 50px;
+            /*total width=width+left padding+right padding+left margin+right margin+left border+right border*/
+             /*           =250+50+50+50+50+10+10 
+                            =370px*/            
+        }
+        .ones{
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div>1</div>
+    <hr>
+    <div class="ones">2</div>
+</body>
+</html>
